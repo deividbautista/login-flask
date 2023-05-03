@@ -43,4 +43,4 @@ Simplemente escribimos la leyenda python, seguido de app.py
 
 # Otros comandos
 
-pip list / pip freeze / python 
+"pip list" / "pip freeze" / "python" 
