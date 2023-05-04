@@ -1,6 +1,3 @@
-const loginsec=document.querySelector('.login-section')
-const loginlink=document.querySelector('.login-link')
-const registerlink=document.querySelector('.register-link')
 const iconEye = document.querySelector('#icon-eye')
 const password = document.querySelector('#password')
 const eye = document.querySelector('#eye')
@@ -64,11 +61,4 @@ iconEyer2.addEventListener('click', () =>{
         eyer2.classList.add('fa-eye-slash')
     }
 
-})
-
-registerlink.addEventListener('click',()=>{
-    loginsec.classList.add('active')
-})
-loginlink.addEventListener('click',()=>{
-    loginsec.classList.remove('active')
 })

@@ -1,12 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;1,500&display=swap');
 
-body{
-    background-color: rgb(127, 193, 255);
-}
 .body_index{
     background-color: rgb(127, 193, 255);
 }
-
+#boton-cerrarSesión{
+    position: absolute;
+    margin-left: 45%;
+    background: #241f5f;
+    border-color: #241f5f;
+}
+.titulo{
+    text-align: center;
+}
 .container {
     background-color: #160d1680;
     position: absolute;
@@ -41,10 +46,10 @@ body{
 .item .logologin {
     cursor: pointer;
     float: left;
-    margin-top: -3em;
+    margin-top: -2.3em;
     margin-left: -1em;
-    width: 190px;
-    height: 145px;
+    width: 200px;
+    height: 90px;
 
 }
 
@@ -197,6 +202,7 @@ body{
 .input-box input:focus~label,
 .input-box input:valid~label {
     top: -5px;
+    outline: none;
 }
 
 .input_login-register {
@@ -260,6 +266,9 @@ body{
 
 .create-account p a:hover {
     text-decoration: underline;
+}
+.input:focus{
+    outline: none;
 }
 
 @media (max-width:825px){
