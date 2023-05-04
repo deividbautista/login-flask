@@ -1,9 +1,15 @@
+
+#-----------------------------------------------------
+#Sección donde importaremos Modulos, Instancias y variables, que utilizaresmos.
+#-----------------------------------------------------
 from werkzeug.security import check_password_hash, generate_password_hash
 from flask_login import UserMixin
 
-
+#Definimos la clase user, con los parametros de userMixin, para autentificar aal usuario.
 class User(UserMixin):
+    #Utilizamos el metodo __init__, para poder instanciar la función de manera rapida y facil.
 
+    #Esta función nos brinda las funcionalidad de los atributos del usuario.
     def __init__(self, id, NDI, password, fullname= "" ) -> None:
         self.id = id
         self.NDI = NDI
