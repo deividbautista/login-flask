@@ -1,6 +1,6 @@
 /*Sección de estilos principales*/
 .body_index {
-    background-color: rgb(127, 193, 255);
+    background-color: rgb(231, 239, 247);
 }
 
 .titulo {
@@ -44,9 +44,7 @@
     float: left;
     margin-top: -2.3em;
     margin-left: -1em;
-    width: 200px;
-    height: 90px;
-
+    height: 150px;
 }
 
 .text-item h2 {
@@ -240,7 +238,7 @@
     border: none;
     border-radius: 4px;
     cursor: pointer;
-    background: #3f61f8;
+    background: #e25555;
     font-size: 16px;
     color: #fff;
     box-shadow: rgba(0, 0, 0, 0.4);
