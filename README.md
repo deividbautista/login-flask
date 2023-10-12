@@ -38,9 +38,8 @@ Este par de comandos nos sirven para activar nuestro entorno virtual :)
 
 .\[Nombre de la carpeta en este caso env]\Scripts\activate or cd.\[Nombre de la carpeta en este caso env] cd.\Scripts\ .\activate
 
-## Para instalar todas las dependencias que vamos a necesitar en este presente proyecto
-
-pip install flask flask-login flask-mysqldb flask-WTF
+# Instalar las dependencias que necesitaremos en este proyecto
+pip install -r requirements.txt 
 
 ## Para ejecutar el software y tener acceso al servidor local tendremos que hacer lo siguiente:
 
