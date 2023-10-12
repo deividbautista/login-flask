@@ -6,7 +6,7 @@
 #Apartado donde daremos configuración a la secret key.
 #-----------------------------------------------------
 class Config:
-    SECRET_KEY = 'B!1w8NAt1T^%kvhUI*S^'
+    SECRET_KEY = 'abcdefghijk'
 
 #-----------------------------------------------------
 #Apartado en el que se configura los datos del usuario.
